@@ -1,0 +1,14 @@
+{
+  "name": "@mi-org/rewriter-wasm",
+  "version": "1.0.0",
+  "main": "out/wasm.js",
+  "types": "out/wasm.d.ts",
+  "files": [
+    "out/*"
+  ],
+  "scripts": {
+    "build": "tsc && wasm-pack build --target web"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
